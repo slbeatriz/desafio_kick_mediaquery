@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+    background-image: url("../img/principaljpeg.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .container h1 {
+    color: #333;
+    text-transform: uppercase;
+  }
+
+  .email-box {
+    margin-top: 20px;
+  }
+
+  .email-box input[type="email"] {
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  .email-box button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: 768px) {
+    .container {
+      max-width: 600px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .container {
+      max-width: 400px;
+    }
+  }
